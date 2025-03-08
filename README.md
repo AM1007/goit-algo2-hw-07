@@ -16,6 +16,7 @@ This assignment will help you understand the advantages and limitations of diffe
 
 Good luck! 😎
 
+# [Solution](./solution.md)
 
 ## Task 1: Optimizing Data Access with LRU Cache
 
@@ -63,15 +64,16 @@ Implement a program that optimizes query processing on an array of numbers using
 **Example Terminal Output**
 
 ```python
-Execution time without caching: 3.11 seconds  
-Execution time with LRU cache: 0.02 seconds  
+Execution time without caching: 3.11 seconds
+Execution time with LRU cache: 0.02 seconds
 ```
 
-***
+---
 
 ## Task 2: Performance Comparison of Fibonacci Computation Using LRU Cache and Splay Tree
 
 ### Objective:
+
 Implement a program to compute Fibonacci numbers using:
 
 1. LRU Cache (`@lru_cache`)
@@ -83,8 +85,8 @@ Then, compare their performance by measuring execution time for each method.
 
 1. Implement two functions for Fibonacci computation:
 
-  - `fibonacci_lru(n)`: Uses @lru_cache to store and reuse computed Fibonacci numbers.
-  - `fibonacci_splay(n, tree)`: Uses a Splay Tree for caching computed values.
+- `fibonacci_lru(n)`: Uses @lru_cache to store and reuse computed Fibonacci numbers.
+- `fibonacci_splay(n, tree)`: Uses a Splay Tree for caching computed values.
 
 2. Measure execution time for each method:
 
@@ -103,9 +105,9 @@ Then, compare their performance by measuring execution time for each method.
 
 5. Print a formatted table showing:
 
-  - `n` values
-  - Average execution time for LRU Cache
-  - Average execution time for Splay Tree
+- `n` values
+- Average execution time for LRU Cache
+- Average execution time for Splay Tree
 
 ### Acceptance Criteria
 
@@ -119,12 +121,12 @@ Then, compare their performance by measuring execution time for each method.
 ### Example Table Output
 
 ```python
-n         LRU Cache Time (s)  Splay Tree Time (s)  
---------------------------------------------------  
-0         0.00000028          0.00000020  
-50        0.00000217          0.00000572  
-100       0.00000164          0.00000532  
-150       0.00000174          0.00000526  
+n         LRU Cache Time (s)  Splay Tree Time (s)
+--------------------------------------------------
+0         0.00000028          0.00000020
+50        0.00000217          0.00000572
+100       0.00000164          0.00000532
+150       0.00000174          0.00000526
 ```
 
 Example of a graph
